@@ -1,4 +1,4 @@
-package Cap05;
+package Cap06;
 
 public class Funcionario {
     
@@ -6,6 +6,10 @@ public class Funcionario {
     private double salario;
     private boolean estaNaEmpresa;
 
+    public Funcionario(String nome, String RG){
+        this.nome = nome;
+        this.RG = RG;
+    }
 
     void receberAumento(double aumento){ salario += aumento; }
 

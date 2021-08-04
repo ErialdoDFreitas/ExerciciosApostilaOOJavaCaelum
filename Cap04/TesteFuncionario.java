@@ -3,7 +3,7 @@ package Cap04;
 public class TesteFuncionario {
 
     public static void main(String[] args){
-            Funcionario f1 = new Funcionario();
+            FuncionarioEx1 f1 = new FuncionarioEx1();
 
             f1.nome = "Beto";
             f1.RG = "202101005725442";
@@ -22,11 +22,11 @@ public class TesteFuncionario {
 
             System.out.println("-------------------------------------------------------");
 
-            Funcionario f2 = new Funcionario();
+            FuncionarioEx1 f2 = new FuncionarioEx1();
             f2.nome = "Mário";
             f2.salario = 1700;
            
-            Funcionario f3 = new Funcionario();
+            FuncionarioEx1 f3 = new FuncionarioEx1();
             f3.nome = "Mário";
             f3.salario = 1700;
 
@@ -37,11 +37,11 @@ public class TesteFuncionario {
                 System.out.println("Funcionários f2 e f3 são diferentes");
             }
 
-            Funcionario f4 = new Funcionario();
-            f1.nome = "Lu";
-            f1.salario = 1700;
+            FuncionarioEx1 f4 = new FuncionarioEx1();
+            f4.nome = "Lu";
+            f4.salario = 1700;
 
-            Funcionario f5 = f4;
+            FuncionarioEx1 f5 = f4;
 
             if(f4 == f5){
                 System.out.println("Funcionários f4 e f5 são iguais");

@@ -1,6 +1,6 @@
 package Cap04;
 
-public class Funcionario {
+public class FuncionarioEx1 {
     
     String nome, RG, departamento, dataEntrada;
     double salario;
