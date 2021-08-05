@@ -14,6 +14,6 @@ public class Empresa {
         this.empregados[1].nome = "Beto";
         this.empregados[1].salario = 1700;
             
-        }
+
     }
 }
