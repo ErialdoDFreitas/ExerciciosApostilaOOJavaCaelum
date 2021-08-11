@@ -1,4 +1,4 @@
-package Cap08.src;
+package Cap08;
 
 public class TesteContas {
     
